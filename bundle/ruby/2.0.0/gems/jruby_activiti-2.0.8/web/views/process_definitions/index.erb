@@ -1,0 +1,28 @@
+<table class="table">
+  <tr>
+    <th>Id</th>
+    <th>DeploymentId</th>
+    <th>Category</th>
+    <th>Description</th>
+    <th>Key</th>
+    <th>Version</th>
+    <th>hasStartFormKey</th>
+    <th>isSuspended</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% for process_definition in @process_definitions %>
+    <tr>
+      <td><%= process_definition.getId() %></td>
+      <td><%= process_definition.getDeploymentId() %></td>
+      <td><%= process_definition.getCategory() %></td>
+      <td><%= process_definition.getDescription() %></td>
+      <td><%= process_definition.getKey() %></td>
+      <td><%= process_definition.getVersion() %></td>
+      <td><%= process_definition.hasStartFormKey() %></td>
+      <td><%= process_definition.isSuspended() %></td>
+      <td><a href="<%= uri("/process_definitions/#{process_definition.getId()}") %>" class="btn">Show</a></td>
+      <td><a href="<%= uri("/diagram-viewer/index.html?processDefinitionId=#{process_definition.getId()}") %>" class="btn">Show in Diagram Viewer</a></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,5 @@
+#-*- mode: ruby -*-
+
+gemfile :source => 'src/java'
+
+# vim: syntax=Ruby

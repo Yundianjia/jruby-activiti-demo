@@ -1,0 +1,8 @@
+#-*- mode: ruby -*-
+source 'http://localhost:8081/gems'
+
+gemspec
+
+gem 'virtus'
+
+# vim: syntax=Ruby

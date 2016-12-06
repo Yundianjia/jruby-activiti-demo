@@ -1,0 +1,42 @@
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/mysql2-0.4.5/ext/mysql2
+/Users/xiajian/.rvm/rubies/jruby-9.1.6.0/bin/jruby -r ./siteconf20161206-46827-14rt0gs.rb extconf.rb
+checking for rb_absint_size()... RuntimeError: The compiler failed to generate an executable file.
+You have to install development tools first.
+
+                 try_do at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:456
+              try_link0 at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:541
+               try_link at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:556
+               try_func at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:770
+     block in have_func at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:1051
+  block in checking_for at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:942
+      block in postpone at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:350
+                   open at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:320
+      block in postpone at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:350
+                   open at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:320
+               postpone at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:346
+           checking_for at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:941
+              have_func at /Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/stdlib/mkmf.rb:1050
+                 <main> at extconf.rb:26
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/xiajian/.rvm/rubies/jruby-9.1.6.0/bin/jruby
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/extensions/universal-java-1.8/2.3.0/mysql2-0.4.5/mkmf.log
+
+extconf failed, exit code 1

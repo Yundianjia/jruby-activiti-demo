@@ -1,0 +1,16 @@
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/xiajian/.rvm/rubies/jruby-9.1.6.0/bin/jruby -r ./siteconf20161206-46827-c58add.rb extconf.rb --use-system-libraries
+
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+echo "Nada."
+Nada.

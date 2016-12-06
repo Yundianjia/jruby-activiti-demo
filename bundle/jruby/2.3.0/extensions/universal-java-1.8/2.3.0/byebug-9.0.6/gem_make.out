@@ -1,0 +1,12 @@
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+/Users/xiajian/.rvm/rubies/jruby-9.1.6.0/bin/jruby -r ./siteconf20161206-46827-1twpi7u.rb extconf.rb --use-system-libraries
+creating Makefile
+
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/xiajian/works/workflow/jruby-activiti-demo/bundle/jruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+make: *** No rule to make target `/Users/xiajian/.rvm/rubies/jruby-9.1.6.0/lib/ruby/include/ruby/ruby.h', needed by `breakpoint.o'.  Stop.
+
+make failed, exit code 2

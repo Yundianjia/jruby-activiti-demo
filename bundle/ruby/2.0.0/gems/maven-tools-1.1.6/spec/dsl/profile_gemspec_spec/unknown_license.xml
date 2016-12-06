@@ -1,0 +1,37 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>no_group_id_given</groupId>
+  <artifactId>profile_gemspec_spec</artifactId>
+  <version>0.0.0</version>
+  <name>profile_gemspec_spec</name>
+  <properties>
+    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+    <jruby.plugins.version>1.1.5</jruby.plugins.version>
+    <mavengem.wagon.version>0.2.1</mavengem.wagon.version>
+  </properties>
+  <repositories>
+    <repository>
+      <id>mavengems</id>
+      <url>mavengem:https://rubygems.org</url>
+    </repository>
+  </repositories>
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.torquebox.mojo</groupId>
+        <artifactId>mavengem-wagon</artifactId>
+        <version>${mavengem.wagon.version}</version>
+      </extension>
+    </extensions>
+    <plugins>
+      <plugin>
+        <groupId>de.saumya.mojo</groupId>
+        <artifactId>gem-maven-plugin</artifactId>
+        <version>${jruby.plugins.version}</version>
+        <configuration>
+          <gemspec>unknown_license.gemspec</gemspec>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
