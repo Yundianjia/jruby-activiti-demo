@@ -5,8 +5,14 @@ gem 'rails', '4.2.5'
 # Use mysql as the database for Active Record
 # gem 'mysql2', '>= 0.3.13', '< 0.5'
 
+gem 'jdbc-mysql'  # 通过这个来链接数据库
 # Use jdbcmysql as the database for Active Record
 gem 'activerecord-jdbcmysql-adapter'
+
+
+gem 'jdbc-postgres'
+gem 'activerecord-jdbcpostgresql-adapter'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
